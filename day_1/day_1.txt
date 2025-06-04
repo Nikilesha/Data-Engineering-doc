@@ -1,0 +1,16 @@
+Day 1
+--04/06/2005
+Getting Started with Microsoft SQL Server
+
+Today, I began my Data Engineering documentation journey.
+I installed Microsoft SQL Server along with SQL Server Management Studio (SSMS) for interacting with the database using a graphical interface.
+
+After setup, I practiced some basic SQL operations to get familiar with querying data. Here's what I covered:
+
+SELECT: Used to retrieve data from a table.
+
+FROM: Specifies the table to fetch the data from.
+
+WHERE: Filters records based on specific conditions.
+
+ORDER BY: Sorts the result set based on one or more columns (ascending or descending).
