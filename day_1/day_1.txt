@@ -1,5 +1,4 @@
-Day 1
---04/06/2005
+Day 1 - 04/06/2005
 Getting Started with Microsoft SQL Server
 
 Today, I began my Data Engineering documentation journey.
