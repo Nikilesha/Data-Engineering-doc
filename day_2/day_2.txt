@@ -1,0 +1,38 @@
+Day 2 - 05/06/2025
+Understanding SQL Statement Execution Order
+
+Today I focused on understanding the order of execution in SQL queries. Initially, I found it a bit confusing, especially differentiating between the WHERE and HAVING clauses, but after some hands-on exercises, things started to click.
+
+📚 Key Concepts Learned:
+
+The general SQL execution order:
+
+FROM
+
+WHERE
+
+GROUP BY
+
+HAVING
+
+SELECT
+
+DISTINCT
+
+ORDER BY
+
+WHERE: Used to filter rows before grouping.
+
+HAVING: Used to filter groups after aggregation.
+
+🧠 Learning Note:
+
+I used to mix up WHERE and HAVING, but I realized that WHERE works on raw data, and HAVING works on grouped or aggregated data. Practice really helped solidify this.
+
+✅ Practice:
+
+Ran multiple queries using GROUP BY, HAVING, and WHERE to compare their behavior.
+
+Explored how DISTINCT works when used with multiple columns.
+
+It was a fun and insightful day—understanding the execution order makes writing and debugging SQL much easier.
