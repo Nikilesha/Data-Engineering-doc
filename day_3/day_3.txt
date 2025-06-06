@@ -1,0 +1,42 @@
+Day 3 - 06/06/2025
+Practicing Table Operations and Data Manipulation
+
+Today was all about getting hands-on with table structure and data manipulation in SQL. I practiced key commands related to creating, altering, and deleting tables, as well as inserting and updating records.
+
+🧱 Table Operations:
+
+CREATE TABLE: Defined a persons table with columns for ID, name, birth date, and phone number.
+
+ALTER TABLE:
+
+Added a new column: email
+
+Dropped the phone column
+
+DROP TABLE: Completely removed the persons table from the database.
+
+📝 Data Manipulation:
+
+INSERT INTO:
+
+Added new records into the customers table.
+
+Copied selected data from customers into persons using SELECT.
+
+UPDATE: Modified the score and country for a customer with a specific id.
+
+DELETE:
+
+Deleted specific records where id > 5.
+
+TRUNCATE: Cleared all data from the customers table while keeping the structure intact.
+
+💡 Key Takeaways:
+
+Learned how to modify table structure after creation using ALTER.
+
+Practiced the difference between DELETE and TRUNCATE.
+
+Reinforced the use of INSERT INTO ... SELECT for copying data between tables.
+
+Each command gave me a clearer understanding of how SQL interacts with both the structure and the data in a database.
