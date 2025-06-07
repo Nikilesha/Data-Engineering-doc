@@ -1,0 +1,42 @@
+Day 4 - 07/06/2025
+Filtering Data and Working with SQL Joins
+
+Today I focused on retrieving and filtering data using various SQL clauses and explored different types of joins to connect multiple tables. It was a great practice session that helped me deepen my understanding of both simple and advanced queries.
+
+🔎 Data Filtering & Pattern Matching:
+
+Used WHERE with logical operators (AND, OR, NOT) to filter customers based on country and score.
+
+Used BETWEEN to retrieve scores in a specific range.
+
+Practiced IN to match against multiple values.
+
+Applied the LIKE operator for pattern matching:
+
+Names starting with 'M'
+
+Names ending with 'n'
+
+Names with 'r' in the third position
+
+🔗 SQL Joins:
+
+INNER JOIN: Retrieved customers who have placed orders (matched by ID).
+
+LEFT JOIN: Retrieved all customers, including those with no orders.
+
+RIGHT JOIN: Retrieved all orders, including those without matching customers.
+
+FULL JOIN: Retrieved all customers and orders, including unmatched rows from both.
+
+LEFT JOIN with NULL filter: Found customers who haven’t placed any orders.
+
+📘 Key Learnings:
+
+The difference between INNER, LEFT, RIGHT, and FULL joins.
+
+How to filter results post-join (e.g., customers with no orders using WHERE o.customer_id IS NULL).
+
+Mastered how to query and filter data in more dynamic ways using string patterns and logical conditions.
+
+This day really helped tie together filtering logic and relational database concepts like joins. Looking forward to digging into aggregations and group functions next!
