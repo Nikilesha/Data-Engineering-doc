@@ -1,0 +1,37 @@
+Day 5 - Anti Joins, Cross Joins & Multi-Table Relationships
+
+Today I explored more advanced SQL join techniques, especially anti joins, and learned how to combine data across multiple related tables. This session significantly improved my ability to query and troubleshoot real-world relational data.
+
+🔄 Anti Joins:
+
+Right Anti Join: Retrieved all orders that don’t have matching customers
+(Used a RIGHT JOIN with WHERE c.id IS NULL)
+
+Left Anti Join (inverted): Achieved the same using LEFT JOIN from the orders table
+(Filtered with WHERE c.id IS NULL)
+
+Full Anti Join: Retrieved both unmatched customers and unmatched orders
+(Used FULL JOIN with a WHERE clause checking NULL on both sides)
+
+🔁 Other Join Techniques:
+
+Filtered Left Join: Simulated an INNER JOIN using LEFT JOIN and a NOT NULL condition.
+
+CROSS JOIN: Generated all possible combinations between customers and orders
+(Cartesian product – useful for specific analytical scenarios)
+
+🧩 Multi-Table Join:
+
+Practiced joining multiple tables (orders, customers, products, employees) from a database named salesDB to retrieve comprehensive order information.
+
+This helped in understanding real-world database relationships and how foreign keys connect tables.
+
+📘 Key Takeaways:
+
+Anti joins are powerful for identifying unmatched records—great for data validation and cleanup.
+
+CROSS JOINs can be risky with large datasets due to exponential row generation but are useful when used intentionally.
+
+Multi-table joins help build full reports and dashboards from normalized database schemas.
+
+It was a solid deep-dive into join mechanics today—feeling more confident about handling complex relational queries!
