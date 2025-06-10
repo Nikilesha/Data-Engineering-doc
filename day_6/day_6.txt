@@ -1,0 +1,48 @@
+Day 6 - 10/06/2025
+Multi-Table Queries & Set Operations
+
+Today’s focus was on joining multiple related tables in a single query and learning how to use set operations to combine and compare results from different tables. This session highlighted how powerful SQL can be for both combining and filtering data across multiple sources.
+
+🔗 Multi-Table Joins (From salesDB):
+
+Retrieved all orders along with:
+
+Customer names (from sales.customers)
+
+Product details (from sales.products)
+
+Employee info (from sales.employees)
+
+Selected key fields like OrderID, customer and employee names, product name, and price.
+
+Used LEFT JOINs to ensure all orders were included, even if some details were missing (e.g., no linked employee or product).
+
+🧮 Set Operations Practiced:
+
+UNION:
+
+Combined customer and employee records into a single result, removing duplicates.
+
+UNION ALL:
+
+Similar to UNION, but includes duplicate entries.
+
+EXCEPT:
+
+Found all employees who are not also customers.
+
+INTERSECT:
+
+Identified people who appear as both employees and customers.
+
+📘 Key Learnings:
+
+Set operations are useful for comparing and merging similar datasets.
+
+UNION vs UNION ALL: The former removes duplicates, the latter keeps them.
+
+EXCEPT and INTERSECT help identify overlaps or differences between datasets.
+
+Joins and set operations together provide robust tools for data reporting and integrity checks.
+
+This was a powerful step forward in combining datasets meaningfully and exploring entity relationships through SQL.
