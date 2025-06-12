@@ -1,0 +1,22 @@
+Day 7 - 12/06/2025
+Light Day but Kept the Momentum Going
+
+Today was a relatively light day in terms of learning new concepts, but I made sure not to break the flow.
+
+🔄 Task Completed:
+
+Worked with archived and active order data stored in two separate tables: sales.Orders and sales.OrdersArchive.
+
+Used the UNION operator to combine records without duplicates, creating a unified order report.
+
+sql
+Copy
+Edit
+SELECT * FROM sales.Orders
+UNION
+SELECT * FROM sales.OrdersArchive;
+This helped reinforce how UNION works behind the scenes and showed the practical application of set operations in real-world databases.
+
+🧠 Reflection:
+
+Even though I didn’t explore a major new topic today, solving a problem on my own gave me confidence and reminded me that consistency matters more than intensity. Some progress is always better than none.
