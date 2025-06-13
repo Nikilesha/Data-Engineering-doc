@@ -27,7 +27,6 @@ where first_name != trim(first_name)
 
 
 -- remove dashes (-) from a phone number
-
 select 
 '123-456-7890',
 replace('123-456-7890','-','/')
