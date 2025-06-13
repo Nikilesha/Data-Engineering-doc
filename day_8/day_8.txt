@@ -1,0 +1,32 @@
+Day 8 - 13/06/2025
+String Functions & Data Cleaning in SQL
+
+Today I focused on exploring string manipulation functions in SQL. These are especially useful for cleaning and formatting text data, which is a common task in real-world data pipelines.
+
+🧹 String Operations Practiced:
+
+CONCAT(): Combined customer first name and country into one formatted column.
+
+LOWER() / UPPER(): Converted first names to lowercase and uppercase.
+
+TRIM() with LEN():
+
+Identified customers whose names have leading or trailing spaces.
+
+Measured the length of first_name values to verify data quality.
+
+REPLACE(): Replaced dashes - with slashes / in phone numbers — a helpful technique for cleaning contact details.
+
+LEFT() / RIGHT(): Extracted the first two characters from both sides of the first_name.
+
+SUBSTRING(): Removed the first character from the first_name, extracting everything after it.
+
+📘 Key Takeaways:
+
+String functions like TRIM, REPLACE, and SUBSTRING are essential for cleaning inconsistent or messy data.
+
+These functions can be easily chained or combined in complex transformations.
+
+Practicing such operations helps prepare for common data engineering tasks, especially in preprocessing stages.
+
+It was satisfying to work on textual data today—it gave me a better sense of how SQL handles character-based operations.
