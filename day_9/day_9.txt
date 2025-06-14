@@ -1,0 +1,57 @@
+Day 9 - Numeric and Date/Time Functions in SQL
+
+Today was packed with learning essential numeric operations and date/time manipulation functions in SQL — a key part of reporting, analytics, and time-based filtering in data engineering.
+
+🧮 Numeric Functions:
+
+ROUND(): Rounded a number to two decimal places.
+
+ABS(): Returned the absolute value of a number.
+
+These functions are useful for formatting results and cleaning calculations.
+
+📅 Date & Time Functions:
+
+Basic Retrieval:
+
+Used GETDATE() to retrieve the current system date.
+
+Retrieved and formatted fields like orderDate, shipDate, and creationTime.
+
+Part Extraction:
+
+Extracted day, month, and year using both:
+
+DAY(), MONTH(), YEAR()
+
+DATEPART() for more granular control (e.g., hour, minute, quarter, week)
+
+DATENAME():
+
+Returned string values for month, weekday, and year from creationTime.
+
+Helpful when needing readable output for labels or reports.
+
+DATETRUNC():
+
+Truncated creationTime to the nearest minute or month for cleaner groupings.
+
+EOMONTH():
+
+Retrieved the last date of the month for any given datetime — useful for financial and monthly closing reports.
+
+📊 Practical Exercises:
+
+Counted number of orders placed in each month using DATENAME() and GROUP BY.
+
+Retrieved all orders that were placed in the month of February using MONTH(orderDate) = 2.
+
+🧠 Key Takeaways:
+
+Date and time functions are crucial for building time-based insights and summaries.
+
+SQL provides a rich set of tools to both manipulate and format date fields for analytical tasks.
+
+Knowing the difference between functions like DATENAME, DATEPART, and DATETRUNC can help you produce both human-readable and precise outputs.
+
+Another productive day filled with practical utility and core concepts that will come in handy for time series analysis and dashboards!
