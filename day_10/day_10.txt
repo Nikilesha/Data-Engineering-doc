@@ -1,0 +1,32 @@
+Day 10 - 15/06/2025
+Aggregations, Ranking, and Shipping Time Insights
+
+Today, I practiced writing SQL queries involving aggregations, summaries, and time-based filtering to answer real-world business questions.
+
+📈 Key Concepts Covered:
+
+Total Sales per Customer
+Used SUM(sales) grouped by CustomerID to find how much each customer has contributed to the total revenue.
+
+Top 5 Products by Quantity Sold
+Applied TOP 5 along with SUM(quantity) and GROUP BY productID to identify the most sold products.
+
+Monthly Sales Trends
+Leveraged DATENAME(month, creationTime) to extract month names and grouped sales totals by month — a great way to visualize trends over time.
+
+Most Active Customers (by Orders)
+Identified customers who placed the highest number of orders by summing up quantity and grouping by CustomerID.
+
+Shipping Duration Analysis
+Used DATEDIFF(day, orderDate, shipDate) to calculate the shipping time and filtered to get orders that took more than 7 days to ship.
+
+🧠 Takeaways:
+
+Aggregation functions like SUM() combined with GROUP BY are powerful tools for summarizing data at different levels.
+
+Business-driven queries such as identifying top customers or shipping inefficiencies are very common in analytics workloads.
+
+Using functions like DATEDIFF() allows you to translate raw dates into actionable insights (e.g., late shipments).
+
+This session was very insightful and closer to the kind of reporting and analytical thinking required in real-world data engineering tasks.
+
