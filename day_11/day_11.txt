@@ -1,0 +1,65 @@
+Day 11 - 18/06/2025
+Date Formatting, Type Conversion, and Time Calculations
+
+Today, I worked on advanced SQL functions related to date formatting, data type conversions, and time-based analysis. These are essential skills when preparing clean, human-readable reports or manipulating date-time data for business insights.
+
+📅 Date Formatting (FORMAT)
+
+Used the FORMAT() function to customize how dates are displayed.
+
+Created custom formats like:
+
+Just the month ('MM')
+
+Full date in MM-dd-yyyy format
+
+Advanced readable strings like:
+"Day Wed Jan Q1 2025 12:34:56 PM"
+
+🔁 Type Conversion (CAST, CONVERT)
+
+Converted between data types using:
+
+CAST() – for converting string to integer.
+
+CONVERT() – used for converting:
+
+String to int
+
+String to date
+
+datetime to just date
+
+These are useful for data cleaning and compatibility in operations.
+
+⏳ Date Arithmetic
+
+DATEADD():
+
+Added/subtracted years, months, and days to/from orderDate.
+
+DATEDIFF():
+
+Calculated:
+
+The age of employees (based on birthDate)
+
+The average shipping duration per month
+
+Difference between current and previous orders using LAG() and OVER() (window function)
+
+📊 Key Insights Extracted:
+
+Calculated average shipping duration per month.
+
+Tracked the gap between orders by using window functions, helping to analyze ordering patterns and frequency.
+
+🧠 Takeaways:
+
+Learning how to manipulate and format dates is vital for analytics.
+
+FORMAT(), CAST(), and CONVERT() give full control over how data appears and behaves.
+
+Combining LAG() + DATEDIFF() is especially powerful for tracking changes over time.
+
+This day improved my comfort level with real-world SQL operations that involve time-based reporting and type-safe operations — key for both data pipelines and dashboards.
