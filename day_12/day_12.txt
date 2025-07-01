@@ -1,0 +1,43 @@
+Day 12 - 01/07/2025
+Sorting, Safe Division, and Python-SQL Integration
+
+Today, I explored practical SQL techniques like sorting with NULL handling, safe mathematical operations, and also wrote Python code to interact with a SQL Server database using pyodbc.
+
+🧮 SQL Practice Highlights:
+
+Sorting with NULLs last
+Used ORDER BY score DESC to sort customer scores from high to low.
+(Note: Some systems need additional handling for NULLs, depending on DBMS.)
+
+Safe Division in SQL
+Calculated sales price per unit using:
+sales / NULLIF(quantity, 0)
+This ensures no division by zero errors by turning the denominator into NULL when it's zero.
+
+🐍 Python + SQL Server Integration:
+
+Connected to a SQL Server database (serv) using pyodbc and pandas.
+
+Steps performed:
+
+Established connection using a trusted connection string.
+
+Inserted a row into the demo table using SQL query from Python.
+
+Selected all records and fetched the result using cursor.fetchall().
+
+Converted the result into a pandas.DataFrame for easy viewing and manipulation.
+
+python
+Copy
+Edit
+df = pd.DataFrame.from_records(rows, columns=columns)
+🧠 Key Takeaways:
+
+Using NULLIF() is an effective technique to handle division safely.
+
+Python + SQL integration is powerful for automating ETL tasks and performing data analysis directly in scripts.
+
+pandas makes it very easy to work with query results in a structured tabular format.
+
+Today’s session was practical and gave me a good mix of SQL logic and real-world coding skills by tying SQL operations into Python workflows.
