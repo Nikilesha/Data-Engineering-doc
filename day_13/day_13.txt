@@ -1,0 +1,46 @@
+Day 13 - 02/07/2025
+Data Categorization and Formatting Using CASE Statements
+
+Today, I focused on mastering the use of the CASE expression in SQL — a powerful tool for conditional logic, data labeling, and cleanup during query execution.
+
+📊 Key Exercises and Concepts:
+
+Sales Categorization:
+
+Generated a sales report that categorized orders into:
+
+'Higher' for sales > 50
+
+'Medium' for sales between 21 and 50
+
+'Low' for sales ≤ 20
+
+Sorted the results from lowest to highest sales.
+
+Gender Formatting in Employee Data:
+
+Converted single-letter gender codes ('M', 'F') into full text ('Male', 'Female') using CASE.
+
+Country Code Abbreviation:
+
+Mapped country names to short codes (e.g., 'Germany' → 'DE', 'USA' → 'US') and used 'n/a' for others.
+
+Handling NULL Scores in Customer Data:
+
+Replaced NULL scores with 0 using CASE to ensure clean numeric output.
+
+Selected essential fields like CustomerID and LastName for context.
+
+🧠 Takeaways:
+
+CASE is incredibly useful for dynamic labeling and data transformation directly within SQL queries.
+
+It's perfect for:
+
+Replacing or translating values
+
+Handling NULLs gracefully
+
+Creating readable output for reports
+
+Using CASE helps simplify downstream processing by applying logic inside the database layer.
