@@ -1,0 +1,41 @@
+Day 14 – Aggregates & Window Functions in SQL
+
+Today, I focused on learning and practicing aggregate functions and began working with window functions to perform calculations across sets of rows.
+
+📊 Aggregate Functions:
+
+Used COUNT() to calculate the total number of customers.
+
+SUM(), AVG(), MAX(), and MIN() were used to compute:
+
+Total sales across all orders.
+
+Average sales per order.
+
+Highest and lowest order values.
+
+Applied the same functions to the score column in the customers table to analyze customer metrics.
+
+These functions are great for producing summaries and KPIs in reports.
+
+🪟 Window Functions:
+
+Practiced SUM(sales) OVER (PARTITION BY productID) to get total sales per product while still displaying individual order-level details like OrderID and OrderDate.
+
+This contrasted with the classic GROUP BY method, which groups and collapses rows.
+
+Key Learning:
+
+GROUP BY reduces rows and summarizes them.
+
+OVER(PARTITION BY ...) allows row-level details and aggregate metrics to coexist in the same query output.
+
+🧠 Takeaways:
+
+Aggregates are essential for data summarization and are widely used in reporting dashboards.
+
+Window functions are incredibly powerful when you want to retain detailed rows while applying group-level calculations.
+
+These tools will play a major role in data transformation, reporting, and analytics pipelines.
+
+It was a productive day that introduced me to more advanced techniques that I’ll be using often in real-world data tasks.
