@@ -1,0 +1,20 @@
+Day 15 – 12/07/2025
+Light Day, but Kept the Streak Alive
+
+Today was a relatively light day in terms of new learning, but I made sure to keep up the habit and reinforce concepts from previous sessions.
+
+📌 What I Practiced:
+
+Used window functions like SUM() OVER() to calculate:
+
+Total sales across all orders.
+
+Total sales per product while still showing each OrderID and OrderDate.
+
+This helped me better understand how window functions allow me to add aggregated insights without losing row-level details, which is great for dashboards and analysis.
+
+🧠 Reflection:
+
+Even though I didn’t dive into new topics, showing up and revisiting concepts helped me reinforce my learning. The important thing is — I didn’t stop.
+
+Looking forward to a deeper dive tomorrow!
