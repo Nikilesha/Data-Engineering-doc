@@ -1,4 +1,5 @@
-Day 14 – Aggregates & Window Functions in SQL
+Day 14 – 10/07/2027
+Aggregates & Window Functions in SQL
 
 Today, I focused on learning and practicing aggregate functions and began working with window functions to perform calculations across sets of rows.
 
