@@ -1,0 +1,38 @@
+Day 16 – 21/07/2025
+Deep Dive into Advanced Window Functions
+
+Today, I worked with advanced window functions and explored various analytical patterns using SQL. This helped me see how powerful window operations are when it comes to combining row-level data with aggregated insights.
+
+🧠 What I Learned & Practiced:
+
+✅ Window Frame Control:
+
+Used ROWS BETWEEN CURRENT ROW AND 2 FOLLOWING to calculate rolling totals by OrderStatus.
+
+✅ Filtering + Aggregation:
+
+Applied SUM() using window functions only on selected products (ProductID 101 and 102).
+
+✅ Ranking:
+
+Ranked customers based on their total sales using RANK() and GROUP BY.
+
+✅ Counting Rows Dynamically:
+
+Used COUNT() OVER() to get total order counts across and per customer.
+
+Checked for duplicates using COUNT(*) OVER(PARTITION BY OrderID).
+
+✅ Aggregate with Full Detail:
+
+Found total sales, sales per product, and average sales, all while keeping details like OrderID and OrderDate.
+
+✅ Percentage Contribution:
+
+Calculated each product’s sales percentage of total sales with ROUND() and CAST().
+
+🔍 Key Takeaways:
+
+Window functions are incredibly flexible: You can compute totals, ranks, averages, and percentages while keeping individual row data.
+
+Great practice in combining aggregation with filtering and formatting, preparing for real-world reporting tasks.
