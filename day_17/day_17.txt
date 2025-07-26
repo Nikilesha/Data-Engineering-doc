@@ -1,0 +1,34 @@
+Day 17 – 26/07/2025
+Mastering Comparative Analysis with Window Functions
+
+Today was focused on using window functions to compare individual values against global and group-level aggregates. It deepened my understanding of ranking, filtering by aggregates, and advanced usage of COALESCE and subqueries.
+
+🧠 What I Learned & Practiced:
+
+✅ Average Score with Null Handling:
+
+Used COALESCE(score, 0) to treat NULL scores as zero.
+
+Calculated average score across all customers while preserving row-level details.
+
+✅ Sales Comparison Against Averages:
+
+Identified orders where sales exceeded the average sales using a subquery with AVG() over all rows.
+
+✅ Min/Max Per Product:
+
+Found the highest and lowest sales per product using MIN() and MAX() with PARTITION BY productID.
+
+✅ Global Maximum Salary:
+
+Found employees with the highest salary using a windowed MAX() function and filtered with a subquery.
+
+🔍 Key Takeaways:
+
+AVG() OVER() is extremely useful to benchmark each row against a global value.
+
+Subqueries with window functions make it easy to filter based on calculated columns.
+
+The COALESCE() function is handy to clean NULLs without losing context.
+
+Performance insights become clearer when you mix aggregation with full-row context.
