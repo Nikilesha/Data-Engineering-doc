@@ -1,0 +1,43 @@
+Day 18 – 29/07/2025
+Ranking Functions & Advanced Row Segmentation
+Today I explored the powerful world of ranking functions in SQL that help in assigning order, identifying top/bottom performers, eliminating duplicates, and segmenting data effectively.
+
+📘 What I Learned:
+
+✅ ROW_NUMBER()
+
+Assigns a unique rank to each row, even when duplicates exist.
+
+Used it to give sequential IDs to rows and eliminate duplicates by keeping only the latest record.
+
+✅ RANK() vs DENSE_RANK():
+
+RANK() leaves gaps when ties occur.
+
+DENSE_RANK() assigns consecutive ranks even for ties.
+
+Helpful in understanding sales rankings without ambiguity.
+
+✅ Top/Bottom Performers:
+
+Used ROW_NUMBER() with PARTITION BY to find top-selling orders per product.
+
+Retrieved the lowest 2 customers based on total sales.
+
+✅ NTILE():
+
+Split all orders into 3 sales segments: High, Medium, Low using NTILE(3).
+
+✅ CUME_DIST():
+
+Identified products in the top 40% price range using cumulative distribution.
+
+🧠 Key Takeaways:
+
+Ranking functions give more control and granularity when ordering and analyzing datasets.
+
+ROW_NUMBER() is a go-to tool for de-duplication and unique ordering.
+
+NTILE() is great for even distribution across categories.
+
+CUME_DIST() helps in percentile-based segmentation — useful in pricing strategies and outlier detection.
